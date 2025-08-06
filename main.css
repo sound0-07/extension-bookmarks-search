@@ -1,0 +1,41 @@
+body {
+  width: 300px;
+  height: 300px;
+  margin: 8px;
+  overflow: hidden;
+}
+#bookmarks {
+  height: calc(300px - 60px); /* Adjust height based on other elements */
+  overflow-y: auto;
+}
+h1 {
+  margin-top: 0;
+}
+a {
+  color: #000;
+  white-space: normal; /* Allow text to wrap */
+  word-break: break-all; /* Break long words */
+  display: block; /* Make the link a block element to fill the li */
+  text-decoration: none;
+}
+a:hover {
+  font-weight: bold;
+}
+ul {
+  font-size: 14px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  padding: 4px 8px;
+}
+li:hover {
+    background-color: #B2CBE0;
+}
+li:nth-child(odd) {
+  background-color: #CCDFEF;
+}
+li:nth-child(even) {
+  background-color: #E7F0F7;
+}

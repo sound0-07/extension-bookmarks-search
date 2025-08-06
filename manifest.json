@@ -1,0 +1,16 @@
+{
+  "name": "Bookmark Search",
+  "description": "Bookmark Search",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "icon-48.png"
+  },
+  "icons": {
+    "48": "icon-48.png"
+  },
+  "permissions": [
+    "bookmarks"
+  ]
+}
